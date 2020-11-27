@@ -1,6 +1,8 @@
 import React from "react";
 import { Jumbotron, Button, Container } from "reactstrap";
 
+import Form from '../../components/Form';
+
 const Home = (props) => {
   return (
     <div>
@@ -24,6 +26,7 @@ const Home = (props) => {
               </p>
             </Jumbotron>
           </div>
+          <Form />
         </Container>
       </div>
       {/* <Footer /> */}

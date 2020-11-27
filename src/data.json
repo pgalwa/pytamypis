@@ -1,0 +1,32 @@
+{
+    "voivodeships": [
+        {
+            "name": "Mazowieckie",
+            "counties": [
+                {
+                    "name": "Warszawa",
+                    "letterData": {
+                        "name": "Powiatowa Stacja Sanitarno-Epidemiologiczna w m.st. Warszawie",
+                        "street": "ul. Kochanowskiego 21",
+                        "postalCode": "01-864 Warszawa",
+                        "email": " kancelaria@pssewawa.pl"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Małopolskie",
+            "counties": [
+                {
+                    "name": "Kraków",
+                    "letterData": {
+                        "name": "Powiatowa Stacja Sanitarno-Epidemiologiczna w Krakowie",
+                        "street": "ul. Makuszyńskiego 9",
+                        "postalCode": "31-752 Kraków",
+                        "email": "psse@pssekrakow.pl"
+                    }
+                }
+            ]
+        }
+    ]
+}
