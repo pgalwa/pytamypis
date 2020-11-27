@@ -32,7 +32,7 @@ import Pdf from "./views/pdf";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/home" render={(props) => <Home {...props} />} />
+      <Route path="/" render={(props) => <Home {...props} />} />
       <Route path="/pdf" render={(props) => <Pdf {...props} />} />
     </Switch>
   </BrowserRouter>,
