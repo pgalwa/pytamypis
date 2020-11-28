@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import data from "../../data.json"
 
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import Container from "reactstrap/lib/Container";
 
 const PdfForm = () => {
   const [form, setForm] = useState({
@@ -62,7 +63,7 @@ const PdfForm = () => {
           ))}
         </Input>
         {voivodeship && (
-          <>
+          <FormGroup>
             <Label htmlFor="county">Powiat</Label>
             <Input
               name="county"
@@ -78,19 +79,18 @@ const PdfForm = () => {
                 </option>
               ))}
             </Input>
-          </>
+          </FormGroup>
         )}
-        <Label htmlFor="other">
+        <Container>
+        <Label check>
           <Input
-            name="other"
-            id="other"
             type="checkbox"
-            mb={3}
             checked={isOther}
             onClick={() => setIsOther(!isOther)}
-          />
+          />{' '}
           Inny adres
         </Label>
+        </Container>
         {isOther && (
           <>
             <Label htmlFor="pisName">
@@ -125,6 +125,7 @@ const PdfForm = () => {
             />
           </>
         )}
+        <br className="mt-3" />
         <Button onClick={handlePrint} variant="secondary">
           Drukuj
         </Button>
