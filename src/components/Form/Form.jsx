@@ -49,6 +49,22 @@ const PdfForm = () => {
           mb={3}
           onChange={({ target: { value } }) => handleSetForm("surname", value)}
         />
+        <Label htmlFor="email"></Label>
+        <Input
+          name="email"
+          id="email"
+          placeholder="Adres E-mail"
+          mb={3}
+          onChange={({ target: { value } }) => handleSetForm("surname", value)}
+        />
+        <Label check className="py-3 pl-4">
+          <Input
+            type="checkbox"
+            checked={isOther}
+            onClick={() => setIsOther(!isOther)}
+          />{' '}
+          Inny adres
+        </Label>
         <Label htmlFor="sound"></Label>
         {!isOther && (<Input
           name="sound"
@@ -83,16 +99,6 @@ const PdfForm = () => {
             </Input>
           </FormGroup>
         )}
-        <Container>
-        <Label check>
-          <Input
-            type="checkbox"
-            checked={isOther}
-            onClick={() => setIsOther(!isOther)}
-          />{' '}
-          Inny adres
-        </Label>
-        </Container>
         {isOther && (
           <>
             <Label htmlFor="pisName">
