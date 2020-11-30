@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Button, Container } from "reactstrap";
+import { Container } from "reactstrap";
 
 import Form from '../../components/Form';
 
@@ -8,11 +8,9 @@ const Home = (props) => {
     <div>
       {/* <Navbar /> */}
       <div className="main">
-        <Container>
+        <Container className="px-5 text-center">
           <div className="section">
-            <Jumbotron>
-              <h1 className="display-3">Pytamy PiS</h1>
-              <hr className="my-2" />
+              <h1 className="display-1">Pytamy PiS</h1>
               <p className="lead">
                 Poniewaz ostatnio został ograniczony dostep do informacji nt.
                 stanu covid-19 w wojewodztwach, postanowilismy skorzystac z
@@ -20,11 +18,6 @@ const Home = (props) => {
                 wysylania wnioskow do Waszego Powiatowego Inspektatoratu
                 Sanitarnego
               </p>
-              <hr className="my-2" />
-              <p className="lead">
-                <Button color="primary">Więcej</Button>
-              </p>
-            </Jumbotron>
           </div>
           <Form />
         </Container>

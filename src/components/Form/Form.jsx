@@ -33,36 +33,38 @@ const PdfForm = () => {
   return (
     <FormGroup>
       <p>Aby dostac pdf, wypelnij ponizszy formularz</p>
-        <Label htmlFor="name">Imie</Label>
+        <Label htmlFor="name"></Label>
         <Input
           name="name"
           id="name"
           mb={3}
+          placeholder="Imię"
           onChange={({ target: { value } }) => handleSetForm("name", value)}
         />
-        <Label htmlFor="surname">Nazwisko</Label>
+        <Label htmlFor="surname"></Label>
         <Input
           name="surname"
           id="surname"
+          placeholder="Nazwisko"
           mb={3}
           onChange={({ target: { value } }) => handleSetForm("surname", value)}
         />
-        <Label htmlFor="sound">Wojewodztwo</Label>
-        <Input
+        <Label htmlFor="sound"></Label>
+        {!isOther && (<Input
           name="sound"
           id="sound"
           mb={3}
           onChange={handleSelectVoivodeship}
           type="select"
         >
-          <option></option>
+          <option value="" disabled selected>Wybierz wojewodztwo</option>
           {data.voivodeships.map((v, idx) => (
             <option key={v.name} value={idx}>
               {v.name}
             </option>
           ))}
-        </Input>
-        {voivodeship && (
+        </Input>)}
+        {voivodeship && !isOther && (
           <FormGroup>
             <Label htmlFor="county">Powiat</Label>
             <Input
@@ -72,7 +74,7 @@ const PdfForm = () => {
               mb={3}
               onChange={handleSelectCounty}
             >
-              <option></option>
+              <option value="" disabled selected>Wybierz powiat</option>
               {voivodeship.counties.map((c, idx) => (
                 <option key={c.name} value={idx}>
                   {c.name}
@@ -94,30 +96,29 @@ const PdfForm = () => {
         {isOther && (
           <>
             <Label htmlFor="pisName">
-              Nazwa Stacji Epidemiologiczno Sanitarnej
             </Label>
             <Input
               name="pisName"
               id="pisName"
-              placeholder="Powiatowa Stacja Sanitarno-Epidemiologiczna w m.st. Warszawie"
+              placeholder="Nazwa Stacji Epidemiologiczno Sanitarnej"
               mb={3}
               onChange={({ target: { value } }) => handlePisData("name", value)}
             />
-            <Label htmlFor="name">Ulica</Label>
+            <Label htmlFor="name"></Label>
             <Input
               name="street"
               id="street"
-              placeholder="ul. Kochanowskiego 21"
+              placeholder="ulica i numer budynku"
               mb={3}
               onChange={({ target: { value } }) =>
                 handlePisData("street", value)
               }
             />
-            <Label htmlFor="postalCode">Kod Pocztowy i Miasto</Label>
+            <Label htmlFor="postalCode"></Label>
             <Input
               name="postalCode"
               id="postalCode"
-              placeholder="31-752 Kraków"
+              placeholder="Kod Pocztowy i Miasto"
               mb={3}
               onChange={({ target: { value } }) =>
                 handlePisData("postalCode", value)

@@ -641,3 +641,13 @@
     display: none !important;
   }
 }
+
+
+
+html,
+body,
+.section {
+    height: 100%;
+    background: #DE6712;
+    color: #FFF;
+}
