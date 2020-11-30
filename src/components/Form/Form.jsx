@@ -31,7 +31,7 @@ const PdfForm = () => {
   }
 
   return (
-    <FormGroup>
+    <FormGroup className="pdf-form">
       <p>Aby dostac pdf, wypelnij ponizszy formularz</p>
         <Label htmlFor="name"></Label>
         <Input

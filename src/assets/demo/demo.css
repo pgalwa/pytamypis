@@ -645,9 +645,20 @@
 
 
 html,
-body,
-.section {
+body {
     height: 100%;
-    background: #DE6712;
+    background: linear-gradient(45deg, #25387a 60%, #e5163b 40%);
     color: #FFF;
+}
+
+.section {
+  background: transparent;
+}
+
+.page-title {
+  font-weight: 500;
+}
+
+.pdf-form {
+  text-align: left;
 }
