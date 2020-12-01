@@ -10,6 +10,7 @@ const PdfForm = () => {
   })
   const [voivodeship, setVoivodeship] = useState(null)
   const [isOther, setIsOther] = useState(false)
+  const [email, setEmail]= useState('');
   const handlePrint = () => {
     window.localStorage.setItem("form", JSON.stringify(form))
     window.open("/pdf", "_blank")
@@ -24,6 +25,7 @@ const PdfForm = () => {
 
   const handleSelectCounty = ({ target: { value } }) => {
     handleSetForm("letterData", voivodeship.counties[value].letterData)
+    setEmail(voivodeship.counties[value].letterData.email)
   }
 
   const handleSetOther = () => {
@@ -81,8 +83,7 @@ const PdfForm = () => {
           ))}
         </Input>)}
         {voivodeship && !isOther && (
-          <FormGroup>
-            <Label htmlFor="county">Powiat</Label>
+          <FormGroup className="mt-3"> 
             <Input
               name="county"
               id="county"
@@ -136,6 +137,7 @@ const PdfForm = () => {
         <Button onClick={handlePrint} variant="secondary">
           Drukuj
         </Button>
+        {email && (<p className="mt-2"> Wyslij email na <a href={`mailto:${email}`}>{email}</a> </p>)}
     </FormGroup>
   )
 }

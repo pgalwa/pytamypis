@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Col } from "reactstrap";
+import Logo from '../../assets/img/ppis.png'
 
 import Form from '../../components/Form';
+import content from './home.content';
 
 const Home = (props) => {
   return (
@@ -10,13 +12,19 @@ const Home = (props) => {
       <div className="main">
         <Container className="px-5 text-center">
           <div className="section">
-              <h1 className="display-1 page-title">Pytamy PiS</h1>
-              <p className="lead">
-                Poniewaz ostatnio został ograniczony dostep do informacji nt.
-                stanu covid-19 w wojewodztwach, postanowilismy skorzystac z
-                prawa dostepu do informacji publicznej i zachecic Was do
-                wysylania wnioskow do Waszego Powiatowego Inspektatoratu
-                Sanitarnego
+            <img src={Logo}  style={{width: "25%"}}/>
+
+  <h2 className="display-4 page-title">{content.title}</h2>
+
+              
+              <p className="lead mt-2">
+                {content.text}
+              </p>
+              <p className="lead mt-5">
+                {content.text2}
+              </p>
+              <p className="lead mt-2">
+                {content.text3}
               </p>
           </div>
           <Col md={8}>

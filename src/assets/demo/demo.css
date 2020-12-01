@@ -647,9 +647,13 @@
 html,
 body {
     height: 100%;
-    background: linear-gradient(45deg, #25387a 60%, #e5163b 40%);
+    background:   #25387a;
     color: #FFF;
     font-family: 'Roboto', serif;
+}
+
+.main {
+  background: linear-gradient(45deg, #25387a 60%, #e5163b 40%);
 }
 
 .section {
