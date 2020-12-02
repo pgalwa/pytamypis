@@ -654,6 +654,7 @@ body {
 
 .main {
   background: linear-gradient(45deg, #25387a 60%, #e5163b 40%);
+  height: 130vh;
 }
 
 .section {
