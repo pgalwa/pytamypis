@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1585283288dfd2004c7d7f4fc166d311",
+    "revision": "11464d062bd22c0e6dc818adcaf27f6d",
     "url": "/pytamypis/index.html"
   },
   {
-    "revision": "d283996e918c827a0575",
-    "url": "/pytamypis/static/css/main.bf86352b.chunk.css"
+    "revision": "9b4e8189c02171101f2a",
+    "url": "/pytamypis/static/css/main.862a6a09.chunk.css"
   },
   {
-    "revision": "814e451731556b95990f",
-    "url": "/pytamypis/static/js/2.88e0e6ba.chunk.js"
+    "revision": "6a60b1ea7139afb92749",
+    "url": "/pytamypis/static/js/2.cd0b661a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/pytamypis/static/js/2.88e0e6ba.chunk.js.LICENSE.txt"
+    "url": "/pytamypis/static/js/2.cd0b661a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d283996e918c827a0575",
-    "url": "/pytamypis/static/js/main.bdf9e012.chunk.js"
+    "revision": "9b4e8189c02171101f2a",
+    "url": "/pytamypis/static/js/main.b109b1b4.chunk.js"
   },
   {
     "revision": "30f942bb7783c4b076a0017ec0876fab",
-    "url": "/pytamypis/static/js/main.bdf9e012.chunk.js.LICENSE.txt"
+    "url": "/pytamypis/static/js/main.b109b1b4.chunk.js.LICENSE.txt"
   },
   {
     "revision": "b2050890b602e06ccf8c",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/pytamypis/static/media/nucleo-icons.f32ed5ad.eot"
+  },
+  {
+    "revision": "db440453d024078eb0eec190b80f519a",
+    "url": "/pytamypis/static/media/ppis.db440453.png"
   }
 ]);
