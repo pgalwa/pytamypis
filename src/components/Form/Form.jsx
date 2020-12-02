@@ -51,6 +51,22 @@ const PdfForm = () => {
           mb={3}
           onChange={({ target: { value } }) => handleSetForm("surname", value)}
         />
+        <Label htmlFor="street"></Label>
+        <Input
+          name="street"
+          id="street"
+          placeholder="Ulica"
+          mb={3}
+          onChange={({ target: { value } }) => handleSetForm("street", value)}
+        />
+        <Label htmlFor="street"></Label>
+        <Input
+          name="postalCode"
+          id="postalCode"
+          placeholder="Kod Pocztowy i Miasto"
+          mb={3}
+          onChange={({ target: { value } }) => handleSetForm("postalCode", value)}
+        />
         <Label htmlFor="email"></Label>
         <Input
           name="email"
