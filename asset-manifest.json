@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pytamypis/static/css/main.862a6a09.chunk.css",
+    "main.css": "/pytamypis/static/css/main.dc5e6d3a.chunk.css",
     "main.js": "/pytamypis/static/js/main.b109b1b4.chunk.js",
     "main.js.map": "/pytamypis/static/js/main.b109b1b4.chunk.js.map",
     "runtime-main.js": "/pytamypis/static/js/runtime-main.f8117e59.js",
@@ -8,9 +8,9 @@
     "static/js/2.cd0b661a.chunk.js": "/pytamypis/static/js/2.cd0b661a.chunk.js",
     "static/js/2.cd0b661a.chunk.js.map": "/pytamypis/static/js/2.cd0b661a.chunk.js.map",
     "index.html": "/pytamypis/index.html",
-    "precache-manifest.51a4ba0d693308a7907161cc8297ed6f.js": "/pytamypis/precache-manifest.51a4ba0d693308a7907161cc8297ed6f.js",
+    "precache-manifest.85b26065a3ab31bfd1694517060fbcf3.js": "/pytamypis/precache-manifest.85b26065a3ab31bfd1694517060fbcf3.js",
     "service-worker.js": "/pytamypis/service-worker.js",
-    "static/css/main.862a6a09.chunk.css.map": "/pytamypis/static/css/main.862a6a09.chunk.css.map",
+    "static/css/main.dc5e6d3a.chunk.css.map": "/pytamypis/static/css/main.dc5e6d3a.chunk.css.map",
     "static/js/2.cd0b661a.chunk.js.LICENSE.txt": "/pytamypis/static/js/2.cd0b661a.chunk.js.LICENSE.txt",
     "static/js/main.b109b1b4.chunk.js.LICENSE.txt": "/pytamypis/static/js/main.b109b1b4.chunk.js.LICENSE.txt",
     "static/media/paper-kit.scss": "/pytamypis/static/media/nucleo-icons.f32ed5ad.eot",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.f8117e59.js",
     "static/js/2.cd0b661a.chunk.js",
-    "static/css/main.862a6a09.chunk.css",
+    "static/css/main.dc5e6d3a.chunk.css",
     "static/js/main.b109b1b4.chunk.js"
   ]
 }
