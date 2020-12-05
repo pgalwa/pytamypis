@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b9d84ea907b3de987346ee39aa6ddee",
+    "revision": "a0912acaa2da39cf9e6a4cf969475b17",
     "url": "/pytamypis/index.html"
   },
   {
-    "revision": "7e8a0061be85c1bc2977",
-    "url": "/pytamypis/static/css/main.dc5e6d3a.chunk.css"
+    "revision": "7af2e3cc1fdb1fba9804",
+    "url": "/pytamypis/static/css/main.3564e68b.chunk.css"
   },
   {
-    "revision": "6a60b1ea7139afb92749",
-    "url": "/pytamypis/static/js/2.cd0b661a.chunk.js"
+    "revision": "f37742d8b77273da8e01",
+    "url": "/pytamypis/static/js/2.4dfff255.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/pytamypis/static/js/2.cd0b661a.chunk.js.LICENSE.txt"
+    "url": "/pytamypis/static/js/2.4dfff255.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e8a0061be85c1bc2977",
-    "url": "/pytamypis/static/js/main.b109b1b4.chunk.js"
+    "revision": "7af2e3cc1fdb1fba9804",
+    "url": "/pytamypis/static/js/main.82cb92de.chunk.js"
   },
   {
     "revision": "30f942bb7783c4b076a0017ec0876fab",
-    "url": "/pytamypis/static/js/main.b109b1b4.chunk.js.LICENSE.txt"
+    "url": "/pytamypis/static/js/main.82cb92de.chunk.js.LICENSE.txt"
   },
   {
     "revision": "b2050890b602e06ccf8c",

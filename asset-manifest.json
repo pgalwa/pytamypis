@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/pytamypis/static/css/main.dc5e6d3a.chunk.css",
-    "main.js": "/pytamypis/static/js/main.b109b1b4.chunk.js",
-    "main.js.map": "/pytamypis/static/js/main.b109b1b4.chunk.js.map",
+    "main.css": "/pytamypis/static/css/main.3564e68b.chunk.css",
+    "main.js": "/pytamypis/static/js/main.82cb92de.chunk.js",
+    "main.js.map": "/pytamypis/static/js/main.82cb92de.chunk.js.map",
     "runtime-main.js": "/pytamypis/static/js/runtime-main.f8117e59.js",
     "runtime-main.js.map": "/pytamypis/static/js/runtime-main.f8117e59.js.map",
-    "static/js/2.cd0b661a.chunk.js": "/pytamypis/static/js/2.cd0b661a.chunk.js",
-    "static/js/2.cd0b661a.chunk.js.map": "/pytamypis/static/js/2.cd0b661a.chunk.js.map",
+    "static/js/2.4dfff255.chunk.js": "/pytamypis/static/js/2.4dfff255.chunk.js",
+    "static/js/2.4dfff255.chunk.js.map": "/pytamypis/static/js/2.4dfff255.chunk.js.map",
     "index.html": "/pytamypis/index.html",
-    "precache-manifest.85b26065a3ab31bfd1694517060fbcf3.js": "/pytamypis/precache-manifest.85b26065a3ab31bfd1694517060fbcf3.js",
+    "precache-manifest.856484c2b8870f256005fe55027babf4.js": "/pytamypis/precache-manifest.856484c2b8870f256005fe55027babf4.js",
     "service-worker.js": "/pytamypis/service-worker.js",
-    "static/css/main.dc5e6d3a.chunk.css.map": "/pytamypis/static/css/main.dc5e6d3a.chunk.css.map",
-    "static/js/2.cd0b661a.chunk.js.LICENSE.txt": "/pytamypis/static/js/2.cd0b661a.chunk.js.LICENSE.txt",
-    "static/js/main.b109b1b4.chunk.js.LICENSE.txt": "/pytamypis/static/js/main.b109b1b4.chunk.js.LICENSE.txt",
+    "static/css/main.3564e68b.chunk.css.map": "/pytamypis/static/css/main.3564e68b.chunk.css.map",
+    "static/js/2.4dfff255.chunk.js.LICENSE.txt": "/pytamypis/static/js/2.4dfff255.chunk.js.LICENSE.txt",
+    "static/js/main.82cb92de.chunk.js.LICENSE.txt": "/pytamypis/static/js/main.82cb92de.chunk.js.LICENSE.txt",
     "static/media/paper-kit.scss": "/pytamypis/static/media/nucleo-icons.f32ed5ad.eot",
     "static/media/ppis.png": "/pytamypis/static/media/ppis.db440453.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f8117e59.js",
-    "static/js/2.cd0b661a.chunk.js",
-    "static/css/main.dc5e6d3a.chunk.css",
-    "static/js/main.b109b1b4.chunk.js"
+    "static/js/2.4dfff255.chunk.js",
+    "static/css/main.3564e68b.chunk.css",
+    "static/js/main.82cb92de.chunk.js"
   ]
 }
