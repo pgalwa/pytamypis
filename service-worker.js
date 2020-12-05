@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pytamypis/precache-manifest.439ae5f964ca9b0b344ab6d847ed28e4.js"
+  "/pytamypis/precache-manifest.cf5e795e57d4dda5339782e792360565.js"
 );
 
 self.addEventListener('message', (event) => {
