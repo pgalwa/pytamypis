@@ -3,7 +3,7 @@ import { Container, Col } from "reactstrap";
 import Logo from "../../assets/img/ppis.png";
 
 import Form from "../../components/Form";
-import content from "./home.content";
+import content from "./home.content.json";
 
 const Home = (props) => {
   return (
@@ -12,7 +12,7 @@ const Home = (props) => {
       <div className="main">
         <Container className="px-5 text-center">
           <div className="section">
-            <img src={Logo} style={{ width: "25%" }} />
+            <img alt="logo" src={Logo} style={{ width: "25%" }} />
 
             <h2 className="display-4 page-title">{content.title}</h2>
 

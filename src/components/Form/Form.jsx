@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
-import Container from "reactstrap/lib/Container";
+import { Button, FormGroup, Label, Input } from "reactstrap";
 import data from "../../data.json";
 
 const PdfForm = () => {
@@ -73,7 +72,7 @@ const PdfForm = () => {
         id="email"
         placeholder="Adres E-mail"
         mb={3}
-        onChange={({ target: { value } }) => handleSetForm("surname", value)}
+        onChange={({ target: { value } }) => handleSetForm("email", value)}
       />
       <Label check className="py-3 pl-4">
         <Input
