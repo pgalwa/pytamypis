@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f1fb77cec3e210435101baa24c9ef3d",
+    "revision": "5bcd265d14a38358a8593082156ee679",
     "url": "/pytamypis/index.html"
   },
   {
