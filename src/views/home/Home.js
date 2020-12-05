@@ -18,7 +18,7 @@ const Home = (props) => {
 
             <p className="lead mt-2">{content.text}</p>
             <p className="lead mt-5">{content.text2}</p>
-            <p className="lead mt-2">{content.text3}</p>
+            <p className="lead mt-2">{content.text3} <a href="https://github.com/pgalwa/pytamypis#dodawanie-powiatu">(instrukcja)</a></p>
           </div>
           <Col md={8}>
             <Form />
