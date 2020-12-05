@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pytamypis/static/css/main.3564e68b.chunk.css",
-    "main.js": "/pytamypis/static/js/main.82cb92de.chunk.js",
-    "main.js.map": "/pytamypis/static/js/main.82cb92de.chunk.js.map",
+    "main.js": "/pytamypis/static/js/main.2e46a788.chunk.js",
+    "main.js.map": "/pytamypis/static/js/main.2e46a788.chunk.js.map",
     "runtime-main.js": "/pytamypis/static/js/runtime-main.f8117e59.js",
     "runtime-main.js.map": "/pytamypis/static/js/runtime-main.f8117e59.js.map",
     "static/js/2.4dfff255.chunk.js": "/pytamypis/static/js/2.4dfff255.chunk.js",
     "static/js/2.4dfff255.chunk.js.map": "/pytamypis/static/js/2.4dfff255.chunk.js.map",
     "index.html": "/pytamypis/index.html",
-    "precache-manifest.856484c2b8870f256005fe55027babf4.js": "/pytamypis/precache-manifest.856484c2b8870f256005fe55027babf4.js",
+    "precache-manifest.f3a986b22667d1537216b8f87cfddb46.js": "/pytamypis/precache-manifest.f3a986b22667d1537216b8f87cfddb46.js",
     "service-worker.js": "/pytamypis/service-worker.js",
     "static/css/main.3564e68b.chunk.css.map": "/pytamypis/static/css/main.3564e68b.chunk.css.map",
     "static/js/2.4dfff255.chunk.js.LICENSE.txt": "/pytamypis/static/js/2.4dfff255.chunk.js.LICENSE.txt",
-    "static/js/main.82cb92de.chunk.js.LICENSE.txt": "/pytamypis/static/js/main.82cb92de.chunk.js.LICENSE.txt",
+    "static/js/main.2e46a788.chunk.js.LICENSE.txt": "/pytamypis/static/js/main.2e46a788.chunk.js.LICENSE.txt",
     "static/media/paper-kit.scss": "/pytamypis/static/media/nucleo-icons.f32ed5ad.eot",
     "static/media/ppis.png": "/pytamypis/static/media/ppis.db440453.png"
   },
@@ -20,6 +20,6 @@
     "static/js/runtime-main.f8117e59.js",
     "static/js/2.4dfff255.chunk.js",
     "static/css/main.3564e68b.chunk.css",
-    "static/js/main.82cb92de.chunk.js"
+    "static/js/main.2e46a788.chunk.js"
   ]
 }
